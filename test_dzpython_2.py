@@ -1,6 +1,5 @@
 from new_test import num
 
-
 def prettify_func_name(func, *argument):
     return f'{func.__name__.replace("_", " ").title()} [{", ".join([*argument])}]'
     # temp1 = func.__name__
@@ -43,7 +42,6 @@ def sum_result(a, b):
     assert (result2 + result1)
     print()
 
-
 # функция, которая принмает в себя число и возвращает true если оно чётное и false если не чётное
 
 def is_odd(num):
@@ -55,12 +53,11 @@ def is_odd(num):
         print("false")
 
 #  проверить типы левой и правой части assert
-
-def compare(step1, step2):
-    step1 = num % 2
-    step2 = 0
-    print (type(step1))
-    print (type(step2))
+num = 3
+step1 = num % 2
+step2 = 0
+print (type(step1))
+print (type(step2))
 
 
 
